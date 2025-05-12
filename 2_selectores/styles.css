@@ -1,0 +1,74 @@
+/*Selectores decendientes*/
+.mainTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#globalNav .mainTitle{
+    color: blue;
+    font-size: 16px;
+}
+
+.contenedor .mainTitle{
+    color: red;
+}
+
+footer h2{
+    color: green;
+}
+
+/*Selectortes hijos*/
+
+footer > p{
+    background-color: rgb(183, 202, 255);
+}
+
+/*Cambiar el color de developer*/
+
+footer > p > span {
+    color: rgb(255, 0, 0);
+}
+
+/*Selectores de hermandad*/
+
+footer p ~ h2{
+    color: brown;
+}
+
+/*hermanos adyacentes*/
+.developer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+footer .developer + p{
+    background-color: lightskyblue;
+}
+button{
+    color: blue;
+    background-color: white;
+}
+
+/*Selectores de atrbuti simple*/
+input[type] {
+    border-bottom: yellow 2px dotted;
+    border-top: 4px solid red;
+}
+
+/*selectores de atributo con valor*/
+
+input[type="password"] {
+    border-left: crimson 2px dashed;
+    border-right: green 2px dashed;
+}
+
+/*Selectores de atributo con valor al final*/
+/*enlaces dominios .org*/
+
+a[href$=".org"]{
+    color: peru;
+}
+
+a[href^="aprendices"]{
+    color: pink;
+}

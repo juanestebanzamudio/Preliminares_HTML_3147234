@@ -1,0 +1,64 @@
+h2,h3{
+    font-size: 25px;
+    font-family: 'Arial';
+}
+
+.contenedor a{
+    text-decoration: none;
+    color: firebrick;
+}
+
+.contenedor>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2+p{
+    color: gold;
+}
+
+h3~p{
+    color: indigo;
+}
+
+/*reto 1
+font size y fuente igual*/
+
+h2 h3{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*reto 2
+subrayar y agragar color*/
+
+.contenedor nav a{
+    text-decoration: underline;
+    color: firebrick;
+}
+
+.contenedor a{
+    text-decoration: underline;
+    color: firebrick;
+  
+}
+
+/*reto 3
+negrita y font size*/
+footer a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*reto 4
+color gold*/
+
+section p{
+    color: gold;
+}
+
+/*reto 5
+color indigo*/
+aside p{
+    color: indigo;
+}
