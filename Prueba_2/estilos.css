@@ -45,7 +45,7 @@ subrayar y agragar color*/
 
 /*reto 3
 negrita y font size*/
-footer a{
+.contenedor a{
     font-size: 20px;
     font-weight: bold;
 }

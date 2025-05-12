@@ -1,0 +1,49 @@
+.contenedor1{
+    /*disply: block*/
+    /*dispone el elemento en bloque:display:
+    -Utiliza por defecto todo el ancho ce l apantalla
+    -Si tu defines un elemnto como bloque, se le puede poner propiedades como:display: 
+      #Ancho, alto, padding,
+    -El siguiente elemento que tu pongas se mostrara en la siguiente linea
+    -elemento que se usan: h, p, div, a*/
+    display: block;
+    background: blue;
+    height: 150px;
+}
+
+.contenedor2{
+    background: tomato;
+    display: block;
+    width: 500px;
+    height: 150px;
+}
+
+.contenedor3{
+    /*display inline no se le pueden aplicar propiedades de alto y de ancho
+    el elemento se mostrara en la misma linea, con un pequeño espacio
+    por defectolo usan: span, a, img*/
+    display: inline;
+    background-color: chartreuse;
+}
+
+.contenedor4{
+    display: inline;
+    background: goldenrod;
+}
+
+.contenedor5{
+    /*inline block
+    los elementos siguientes se muestran en la misma linae(inline)
+    se le puede aplicar ancho, alto y padding y margin*/
+    display: inline-block;
+    background: gold;
+    height: 200px;
+    width: 200px;
+}
+
+.contenedor6{
+    display: inline-block;
+    background: violet;
+    height: 200px;
+    width: 200px;
+}
